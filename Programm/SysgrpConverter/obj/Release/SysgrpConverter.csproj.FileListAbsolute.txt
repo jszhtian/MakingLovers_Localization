@@ -1,0 +1,5 @@
+F:\github\BGIKit-master\SysgrpConverter\bin\Release\SysgrpConverter.exe
+F:\github\BGIKit-master\SysgrpConverter\bin\Release\SysgrpConverter.pdb
+F:\github\BGIKit-master\SysgrpConverter\obj\Release\SysgrpConverter.csprojResolveAssemblyReference.cache
+F:\github\BGIKit-master\SysgrpConverter\obj\Release\SysgrpConverter.exe
+F:\github\BGIKit-master\SysgrpConverter\obj\Release\SysgrpConverter.pdb
