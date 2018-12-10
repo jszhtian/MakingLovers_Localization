@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="G:\TRP\ML\MakingLovers_Localization\Programm\CED\gtest\CMakeFiles\bf5dc521eebd3bf78b1fd0c7c67c3d9d\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{26C02133-37D5-3246-92E6-EE2E314ADAC1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,21 @@
+﻿  Building Custom Rule G:/TRP/ML/MakingLovers_Localization/Programm/CED/CMakeLists.txt
+  CMake does not need to re-run because G:/TRP/ML/MakingLovers_Localization/Programm/CED/CMakeFiles/generate.stamp is up-to-date.
+  compact_enc_det.cc
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_generated_tables.h(474): warning C4838: 从“int”转换到“char”需要收缩转换
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_generated_tables.h(474): warning C4309: “初始化”: 截断常量值
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_generated_tables.h(973): warning C4838: 从“int”转换到“char”需要收缩转换
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_generated_tables.h(973): warning C4309: “初始化”: 截断常量值
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_generated_tables.h(1854): warning C4838: 从“int”转换到“char”需要收缩转换
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_generated_tables.h(1854): warning C4309: “初始化”: 截断常量值
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det.cc(1950): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 参见“strncpy”的声明
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det.cc(2000): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(337): note: 参见“strncpy”的声明
+  compact_enc_det_hint_code.cc
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_hint_code.cc(122): warning C4018: “<”: 有符号/无符号不匹配
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_hint_code.cc(151): warning C4018: “<”: 有符号/无符号不匹配
+g:\trp\ml\makinglovers_localization\programm\ced\compact_enc_det\compact_enc_det_hint_code.cc(169): warning C4018: “<”: 有符号/无符号不匹配
+  encodings.cc
+  languages.cc
+  正在生成代码...
+  ced.vcxproj -> G:\TRP\ML\MakingLovers_Localization\Programm\CED\lib\Debug\ced.lib

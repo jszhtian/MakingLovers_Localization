@@ -1,0 +1,4 @@
+﻿  BGIinsert.cpp
+g:\trp\ml\makinglovers_localization\programm\bgiinsert\bgiinsert\bgiinsert.cpp(163): warning C4244: “初始化”: 从“std::streamoff”转换到“DWORD”，可能丢失数据
+g:\trp\ml\makinglovers_localization\programm\bgiinsert\bgiinsert\bgiinsert.cpp(241): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+  BGIinsert.vcxproj -> G:\TRP\ML\MakingLovers_Localization\Programm\BGIinsert\Debug\BGIinsert.exe

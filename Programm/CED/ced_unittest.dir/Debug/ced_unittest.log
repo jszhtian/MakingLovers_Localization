@@ -1,0 +1,7 @@
+﻿  Building Custom Rule G:/TRP/ML/MakingLovers_Localization/Programm/CED/CMakeLists.txt
+  CMake does not need to re-run because G:/TRP/ML/MakingLovers_Localization/Programm/CED/CMakeFiles/generate.stamp is up-to-date.
+  compact_enc_det_unittest.cc
+  compact_enc_det_fuzz_test.cc
+  encodings_unittest.cc
+  正在生成代码...
+LINK : fatal error LNK1104: 无法打开文件“gtest\googlemock\gtest\Debug\gtest.lib”
