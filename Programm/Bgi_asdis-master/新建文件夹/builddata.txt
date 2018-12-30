@@ -1,0 +1,135 @@
+<ja0001>%s\%s\*.*
+<cn0001>%s\%s\*.*
+
+<ja0002>実行時ビルド中に [ %s\%s ] 内のフォルダの取得に失敗しました
+<cn0002>実行時ビルド中に [ %s\%s ] 内のフォルダの取得に失敗しました
+
+<ja0003>%s\%s\%s%s
+<cn0003>%s\%s\%s%s
+
+<ja0004>%s\%s
+<cn0004>%s\%s
+
+<ja0005>.bs5
+<cn0005>.bs5
+
+<ja0006>.bsc
+<cn0006>.bsc
+
+<ja0007>Script
+<cn0007>Script
+
+<ja0008>.png
+<cn0008>.png
+
+<ja0009>.bmp
+<cn0009>.bmp
+
+<ja0010>
+<cn0010>
+
+<ja0011>Graphic
+<cn0011>Graphic
+
+<ja0012>.ogg
+<cn0012>.ogg
+
+<ja0013>Sound
+<cn0013>Sound
+
+<ja0014>Voice
+<cn0014>Voice
+
+<ja0015>.bw
+<cn0015>.bw
+
+<ja0016>Stream
+<cn0016>Stream
+
+<ja0017>.bad
+<cn0017>.bad
+
+<ja0018>.bas
+<cn0018>.bas
+
+<ja0019>.bad.csv
+<cn0019>.bad.csv
+
+<ja0020>.bas.csv
+<cn0020>.bas.csv
+
+<ja0021>Definition
+<cn0021>Definition
+
+<ja0022>%s\%s\CVTD\%s
+<cn0022>%s\%s\CVTD\%s
+
+<ja0023>%s\%s\BBTemporaryA
+<cn0023>%s\%s\BBTemporaryA
+
+<ja0024>%s\%s\BBTemporaryB
+<cn0024>%s\%s\BBTemporaryB
+
+<ja0025>%s%s
+<cn0025>%s%s
+
+<ja0026>%s\Bin
+<cn0026>%s\Bin
+
+<ja0027>BurikoScriptCompiler5G.exe %s %s /d /r=%s
+<cn0027>BurikoScriptCompiler5G.exe %s %s /d /r=%s
+
+<ja0028>%s /e
+<cn0028>%s /e
+
+<ja0029>BurikoScriptCompilerBasicStyle.exe -o %s %s -c [第五世代スクリプトのエラー情報]
+<cn0029>BurikoScriptCompilerBasicStyle.exe -o %s %s -c [第五世代スクリプトのエラー情報]
+
+<ja0030>BurikoScriptCompilerBasicStyle.exe -p -o %s %s -c [第五世代スクリプトのエラー情報]
+<cn0030>BurikoScriptCompilerBasicStyle.exe -p -o %s %s -c [第五世代スクリプトのエラー情報]
+
+<ja0031>DSC.exe %s %s
+<cn0031>DSC.exe %s %s
+
+<ja0032>BurikoScriptCompiler.exe /d %s %s
+<cn0032>BurikoScriptCompiler.exe /d %s %s
+
+<ja0033>BurikoScriptCompiler.exe /de %s %s
+<cn0033>BurikoScriptCompiler.exe /de %s %s
+
+<ja0034>blink.exe %s %s /m
+<cn0034>blink.exe %s %s /m
+
+<ja0035>%s\%s%s
+<cn0035>%s\%s%s
+
+<ja0036>BGCnv.exe %s %s
+<cn0036>BGCnv.exe %s %s
+
+<ja0037>BGToCBG.exe %s %s
+<cn0037>BGToCBG.exe %s %s
+
+<ja0038>BWCnvType2.exe %s %s
+<cn0038>BWCnvType2.exe %s %s
+
+<ja0039>.
+<cn0039>.
+
+<ja0040>BurikoAnimationDefinitionCompiler.exe %s %s
+<cn0040>BurikoAnimationDefinitionCompiler.exe %s %s
+
+<ja0041>BurikoAnimationDefinitionCompiler.exe %s %s /e
+<cn0041>BurikoAnimationDefinitionCompiler.exe %s %s /e
+
+<ja0042>外部プログラムが存在しません\n\n%s
+<cn0042>外部プログラムが存在しません\n\n%s
+
+<ja0043>外部プログラムが起動できませんでした\n外部プログラムが存在しているかご確認ください\n\n再試行しますか？\n\n%s\%s
+<cn0043>外部プログラムが起動できませんでした\n外部プログラムが存在しているかご確認ください\n\n再試行しますか？\n\n%s\%s
+
+<ja0044>外部プログラムでエラーが発生しました\n\n再試行しますか？
+<cn0044>外部プログラムでエラーが発生しました\n\n再試行しますか？
+
+<ja0045>ビルド先フォルダの作成に失敗しました\n\n%s
+<cn0045>ビルド先フォルダの作成に失敗しました\n\n%s
+

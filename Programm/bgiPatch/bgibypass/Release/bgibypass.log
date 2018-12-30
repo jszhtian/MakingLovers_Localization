@@ -1,0 +1,10 @@
+﻿  stdafx.cpp
+  bgibypass.cpp
+  dllmain.cpp
+    正在创建库 F:\TRP\ML\MakingLovers_Localization\Programm\bgiPatch\Release\bgiPatch.lib 和对象 F:\TRP\ML\MakingLovers_Localization\Programm\bgiPatch\Release\bgiPatch.exp
+  正在生成代码
+  All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+detours.lib(detours.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(detours.obj)”或在“F:\TRP\ML\MakingLovers_Localization\Programm\bgiPatch\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+detours.lib(disasm.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(disasm.obj)”或在“F:\TRP\ML\MakingLovers_Localization\Programm\bgiPatch\Release\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+  bgibypass.vcxproj -> F:\TRP\ML\MakingLovers_Localization\Programm\bgiPatch\Release\bgiPatch.dll

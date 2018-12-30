@@ -1,0 +1,7 @@
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\bin\Release\BgiDisassembler.exe.config
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\bin\Release\BgiDisassembler.exe
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\bin\Release\BgiDisassembler.pdb
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\obj\Release\BgiDisassembler.csprojAssemblyReference.cache
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\obj\Release\BgiDisassembler.csproj.CoreCompileInputs.cache
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\obj\Release\BgiDisassembler.exe
+F:\TRP\ML\EthornellTools-master\BgiDisassembler\obj\Release\BgiDisassembler.pdb

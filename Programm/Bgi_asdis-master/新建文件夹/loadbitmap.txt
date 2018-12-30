@@ -1,0 +1,12 @@
+<ja0001>sysprg.arc
+<cn0001>sysprg.arc
+
+<ja0002>builddata._bp
+<cn0002>builddata._bp
+
+<ja0003>.png
+<cn0003>.png
+
+<ja0004>%sImage\%s
+<cn0004>%sImage\%s
+

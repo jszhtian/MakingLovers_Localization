@@ -1,0 +1,15 @@
+<ja0001>sysprg.arc
+<cn0001>sysprg.arc
+
+<ja0002>anmmngrs._bp
+<cn0002>anmmngrs._bp
+
+<ja0003>アニメーションマネージャ・マスタースレッドは無効なメッセージ [ $%.8X ] を受信しました
+<cn0003>アニメーションマネージャ・マスタースレッドは無効なメッセージ [ $%.8X ] を受信しました
+
+<ja0004>%s+
+<cn0004>%s+
+
+<ja0005>data04xxx.arc
+<cn0005>data04xxx.arc
+

@@ -1,0 +1,3 @@
+<ja0001>【%s】 Line [ %d ] : Time [ %d ]
+<cn0001>【%s】 Line [ %d ] : Time [ %d ]
+

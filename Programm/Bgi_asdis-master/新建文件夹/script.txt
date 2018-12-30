@@ -1,0 +1,84 @@
+<ja0001>スクリプト情報領域に空きがないので指定されたスクリプト [ %s ] を読み込めません
+<cn0001>スクリプト情報領域に空きがないので指定されたスクリプト [ %s ] を読み込めません
+
+<ja0002>framework._bs
+<cn0002>framework._bs
+
+<ja0003>system.arc
+<cn0003>system.arc
+
+<ja0004>data01xxx.arc
+<cn0004>data01xxx.arc
+
+<ja0005>sysprg.arc
+<cn0005>sysprg.arc
+
+<ja0006>builddata._bp
+<cn0006>builddata._bp
+
+<ja0007>指定されたスクリプト [ %s ] は存在しません
+<cn0007>指定されたスクリプト [ %s ] は存在しません
+
+<ja0008>スクリプトコード領域の不足により指定されたスクリプト [ %s ] を読み込めません
+<cn0008>スクリプトコード領域の不足により指定されたスクリプト [ %s ] を読み込めません
+
+<ja0009>BurikoCompiledScriptVer1.00
+<cn0009>BurikoCompiledScriptVer1.00
+
+<ja0010>file._bp
+<cn0010>file._bp
+
+<ja0011>ErrorLog.txt
+<cn0011>ErrorLog.txt
+
+<ja0012>BGI.edb
+<cn0012>BGI.edb
+
+<ja0013>[ %s ] を開けません\nエラーコード：%d
+<cn0013>[ %s ] を開けません\nエラーコード：%d
+
+<ja0014>[ %s ] に書き込めません\nエラーコード：%d\nステータス：%d
+<cn0014>[ %s ] に書き込めません\nエラーコード：%d\nステータス：%d
+
+<ja0015>%04d/%02d/%02d %02d:%02d:%02d,%s\r\n
+<cn0015>%04d/%02d/%02d %02d:%02d:%02d,%s\r\n
+
+<ja0016>[ %s ] をクローズできません\nエラーコード：%d\nステータス：%d
+<cn0016>[ %s ] をクローズできません\nエラーコード：%d\nステータス：%d
+
+<ja0017> (スクリプト) 
+<cn0017> (スクリプト) 
+
+<ja0018>data02xxx.arc
+<cn0018>data02xxx.arc
+
+<ja0019> (CG) 
+<cn0019> (CG) 
+
+<ja0020>data03xxx.arc
+<cn0020>data03xxx.arc
+
+<ja0021> (効果音) 
+<cn0021> (効果音) 
+
+<ja0022>data04xxx.arc
+<cn0022>data04xxx.arc
+
+<ja0023> (音声) 
+<cn0023> (音声) 
+
+<ja0024>data05xxx.arc
+<cn0024>data05xxx.arc
+
+<ja0025> (ストリーム) 
+<cn0025> (ストリーム) 
+
+<ja0026>
+<cn0026>
+
+<ja0027>指定されたファイル [ %s ]%sは存在しません
+<cn0027>指定されたファイル [ %s ]%sは存在しません
+
+<ja0028>指定された定義 [ %s ] は存在しません
+<cn0028>指定された定義 [ %s ] は存在しません
+

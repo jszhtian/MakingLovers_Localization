@@ -1,0 +1,45 @@
+<ja0001>Definition\*.*
+<cn0001>Definition\*.*
+
+<ja0002>sysprg.arc
+<cn0002>sysprg.arc
+
+<ja0003>builddata._bp
+<cn0003>builddata._bp
+
+<ja0004>Definition\%s\Animation*
+<cn0004>Definition\%s\Animation*
+
+<ja0005>%s\Definition\%s\%s
+<cn0005>%s\Definition\%s\%s
+
+<ja0006>Definition\CVTD\Animation*
+<cn0006>Definition\CVTD\Animation*
+
+<ja0007>Archive\data06???.arc
+<cn0007>Archive\data06???.arc
+
+<ja0008>Archive\%s
+<cn0008>Archive\%s
+
+<ja0009>animationset
+<cn0009>animationset
+
+<ja0010>animation
+<cn0010>animation
+
+<ja0011>data06xxx.arc
+<cn0011>data06xxx.arc
+
+<ja0012>[ %s ] の読み込みに失敗しました
+<cn0012>[ %s ] の読み込みに失敗しました
+
+<ja0013>BurikoAnimationDefinition
+<cn0013>BurikoAnimationDefinition
+
+<ja0014>[ %s ] は破損しています
+<cn0014>[ %s ] は破損しています
+
+<ja0015>BurikoAnimationDefinitionSet
+<cn0015>BurikoAnimationDefinitionSet
+

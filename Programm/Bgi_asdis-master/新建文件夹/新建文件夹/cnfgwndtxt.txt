@@ -1,0 +1,27 @@
+<ja0001>sysprg.arc
+<cn0001>sysprg.arc
+
+<ja0002>environ._bp
+<cn0002>environ._bp
+
+<ja0003>overlap._bp
+<cn0003>overlap._bp
+
+<ja0004>cnfgwndtxtprv._bp
+<cn0004>cnfgwndtxtprv._bp
+
+<ja0005>あいうえお
+<cn0005>示例文本
+
+<ja0006>サンプルテキスト
+<cn0006>示例文本
+
+<ja0007>ＭＳ ゴシック
+<cn0007>微软雅黑
+
+<ja0008>msgwndctrl._bp
+<cn0008>msgwndctrl._bp
+
+<ja0009>bbs._bp
+<cn0009>bbs._bp
+

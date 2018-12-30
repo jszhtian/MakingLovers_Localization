@@ -1,0 +1,207 @@
+﻿<ja0001>デート先%dの番号
+<cn0001>デート先%dの番号
+
+<ja0002>ディナー先%dの番号
+<cn0002>ディナー先%dの番号
+
+<ja0003>Date%02d
+<cn0003>Date%02d
+
+<ja0004>data02xxx.arc
+<cn0004>data02xxx.arc
+
+<ja0005>Sam_Date%02d
+<cn0005>Sam_Date%02d
+
+<ja0006>Dinner%02d
+<cn0006>Dinner%02d
+
+<ja0007>Sam_Dinner%02d
+<cn0007>Sam_Dinner%02d
+
+<ja0008>
+<cn0008>
+
+<ja0009>カラオケ
+<cn0009>卡拉OK
+
+<ja0010>ゲームセンター
+<cn0010>游戏中心
+
+<ja0011>フラワーショップ
+<cn0011>鲜花坊
+
+<ja0012>ブティック＆雑貨屋
+<cn0012>服饰&百货 
+
+<ja0013>スーパー
+<cn0013>大型超市
+
+<ja0014>（※予備枠）
+<cn0014>（※予備枠）
+
+<ja0015>ネットカフェ
+<cn0015>网络咖啡屋
+
+<ja0016>ビーチ
+<cn0016>海滩
+
+<ja0017>ラブホ
+<cn0017>情趣酒店
+
+<ja0018>ＢＡＲ
+<cn0018>酒吧
+
+<ja0019>ブティック
+<cn0019>百货商场
+
+<ja0020>海岸通り
+<cn0020>海岸步道
+
+<ja0021>主人公の部屋
+<cn0021>我的房间
+
+<ja0022>大通り
+<cn0022>潮鸣步行街
+
+<ja0023>展望タワー
+<cn0023>展望塔
+
+<ja0024>フードコート
+<cn0024>美食广场
+
+<ja0025>船上レストラン
+<cn0025>船上餐厅
+
+<ja0026>居酒屋
+<cn0026>居酒屋
+
+<ja0027>デートの場所 【 %s 】\nディナーの場所 【 %s 】
+<cn0027>约会地点 【 %s 】\n晚餐地点 【 %s 】
+
+<ja0028>選択肢
+<cn0028>选项
+
+<ja0029>sysprg.arc
+<cn0029>sysprg.arc
+
+<ja0030>environ._bp
+<cn0030>environ._bp
+
+<ja0031>sysgrp.arc
+<cn0031>sysgrp.arc
+
+<ja0032>SGSlctDate100000
+<cn0032>SGSlctDate100000
+
+<ja0033>SGSlctDate100001
+<cn0033>SGSlctDate100001
+
+<ja0034>SGSlctDate100100
+<cn0034>SGSlctDate100100
+
+<ja0035>SGSlctDate100101
+<cn0035>SGSlctDate100101
+
+<ja0036>SGSlctDate000000
+<cn0036>SGSlctDate000000
+
+<ja0037>SGSlctDate000001
+<cn0037>SGSlctDate000001
+
+<ja0038>SGSlctDate000100
+<cn0038>SGSlctDate000100
+
+<ja0039>SGSlctDate000101
+<cn0039>SGSlctDate000101
+
+<ja0040>SGSlctDate400100
+<cn0040>SGSlctDate400100
+
+<ja0041>SGSlctDate400200
+<cn0041>SGSlctDate400200
+
+<ja0042>SGSlctDate400300
+<cn0042>SGSlctDate400300
+
+<ja0043>SGSlctDate400400
+<cn0043>SGSlctDate400400
+
+<ja0044>SGSlctDate400500
+<cn0044>SGSlctDate400500
+
+<ja0045>SGSlctDate990000
+<cn0045>SGSlctDate990000
+
+<ja0046>SGSlctDate990001
+<cn0046>SGSlctDate990001
+
+<ja0047>SGSlctDate990100
+<cn0047>SGSlctDate990100
+
+<ja0048>SGSlctDate990101
+<cn0048>SGSlctDate990101
+
+<ja0049>SGSlctDate990200
+<cn0049>SGSlctDate990200
+
+<ja0050>無効なモード番号 [ %d ] が送信されました
+<cn0050>無効なモード番号 [ %d ] が送信されました
+
+<ja0051>userdata._bp
+<cn0051>userdata._bp
+
+<ja0052>file._bp
+<cn0052>file._bp
+
+<ja0053>ErrorLog.txt
+<cn0053>ErrorLog.txt
+
+<ja0054>BGI.edb
+<cn0054>BGI.edb
+
+<ja0055>[ %s ] を開けません\nエラーコード：%d
+<cn0055>[ %s ] を開けません\nエラーコード：%d
+
+<ja0056>[ %s ] に書き込めません\nエラーコード：%d\nステータス：%d
+<cn0056>[ %s ] に書き込めません\nエラーコード：%d\nステータス：%d
+
+<ja0057>%04d/%02d/%02d %02d:%02d:%02d,%s\r\n
+<cn0057>%04d/%02d/%02d %02d:%02d:%02d,%s\r\n
+
+<ja0058>[ %s ] をクローズできません\nエラーコード：%d\nステータス：%d
+<cn0058>[ %s ] をクローズできません\nエラーコード：%d\nステータス：%d
+
+<ja0059>data01xxx.arc
+<cn0059>data01xxx.arc
+
+<ja0060> (スクリプト) 
+<cn0060> (スクリプト) 
+
+<ja0061> (CG) 
+<cn0061> (CG) 
+
+<ja0062>data03xxx.arc
+<cn0062>data03xxx.arc
+
+<ja0063> (効果音) 
+<cn0063> (効果音) 
+
+<ja0064>data04xxx.arc
+<cn0064>data04xxx.arc
+
+<ja0065> (音声) 
+<cn0065> (音声) 
+
+<ja0066>data05xxx.arc
+<cn0066>data05xxx.arc
+
+<ja0067> (ストリーム) 
+<cn0067> (ストリーム) 
+
+<ja0068>指定されたファイル [ %s ]%sは存在しません
+<cn0068>指定されたファイル [ %s ]%sは存在しません
+
+<ja0069>指定された定義 [ %s ] は存在しません
+<cn0069>指定された定義 [ %s ] は存在しません
+

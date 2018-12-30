@@ -1,0 +1,1359 @@
+﻿00000010    getsp
+00000011    push 44
+00000013    add
+00000014    setsp
+00000015    lea var44
+00000018    storevp dword
+0000001A    lea var40
+0000001D    push sub_0000003E
+00000020    push sub_00000676
+00000023    push sub_00000775
+00000026    storemulti dword 3
+00000029    lea var40
+0000002C    lea var44
+0000002F    load dword
+00000031    push 2
+00000033    shl
+00000034    add
+00000035    load dword
+00000037    call
+00000038    getsp
+00000039    push 44
+0000003B    sub
+0000003C    setsp
+0000003D    ret
+
+sub_0000003E:
+0000003E    getsp
+0000003F    push 44FC
+00000042    add
+00000043    setsp
+00000044    call sub_00000775
+00000048    push AB0
+0000004B    push AC
+0000004E    syscall 80:D0
+00000050    push AB4
+00000053    push 44
+00000055    syscall 80:D0
+00000057    lea var3ED4
+0000005A    push 3E8
+0000005D    push 4
+0000005F    mul
+00000060    memclear
+00000061    lea var2F34
+00000064    push 3E8
+00000067    push 4
+00000069    mul
+0000006A    memclear
+0000006B    lea var1F94
+0000006E    push 3E8
+00000071    push 4
+00000073    mul
+00000074    memclear
+00000075    lea varFF4
+00000078    push 3E8
+0000007B    push 4
+0000007D    mul
+0000007E    memclear
+0000007F    push 0
+00000081    jz 0000039B
+
+00000086    push 0
+00000088    jnz 0000039B
+
+0000008D    push 0
+0000008F    push 0
+00000091    getstring "Definition\*.*"      // BC0 - BCE
+00000094    push 0
+00000096    syscall 80:26
+00000098    lea var48
+0000009B    storevp dword
+0000009D    lea var48
+000000A0    load dword
+000000A2    push 1
+000000A4    ge
+000000A5    jz 000002BD
+
+000000AA    lea var48
+000000AD    load dword
+000000AF    syscall void* alloc(int size)
+000000B1    lea var4C
+000000B4    storevp dword
+000000B6    lea var4C
+000000B9    load dword
+000000BB    lea var48
+000000BE    load dword
+000000C0    getstring "Definition\*.*"      // BCF - BDD
+000000C3    push 0
+000000C5    syscall 80:26
+000000C7    lea var44
+000000CA    storevp dword
+000000CC    getstring "sysprg.arc"      // BDE - BE8
+000000CF    getstring "builddata._bp"      // BE9 - BF6
+000000D2    syscall void* loadProgram(char* pszArchiveFileName, char* pszFileName)
+000000D4    lea var40
+000000D7    storevp dword
+000000D9    lea var3C
+000000DC    push 0
+000000DE    storepv dword
+000000E0    lea var38
+000000E3    lea var4C
+000000E6    load dword
+000000E8    storepv dword
+
+000000EA    lea var38
+000000ED    load dword
+000000EF    strlen
+000000F0    lea var44F4
+000000F3    storevp dword
+000000F5    lea var44F4
+000000F8    load dword
+000000FA    push 3
+000000FC    ge
+000000FD    jz 00000279
+
+00000102    lea var38
+00000105    load dword
+00000107    push 0
+00000109    add
+0000010A    load byte
+0000010C    push 30
+0000010E    ge
+0000010F    lea var38
+00000112    load dword
+00000114    push 0
+00000116    add
+00000117    load byte
+00000119    push 39
+0000011B    le
+0000011C    logand
+0000011D    lea var38
+00000120    load dword
+00000122    push 1
+00000124    add
+00000125    load byte
+00000127    push 30
+00000129    ge
+0000012A    logand
+0000012B    lea var38
+0000012E    load dword
+00000130    push 1
+00000132    add
+00000133    load byte
+00000135    push 39
+00000137    le
+00000138    logand
+00000139    lea var38
+0000013C    load dword
+0000013E    push 2
+00000140    add
+00000141    load byte
+00000143    push 30
+00000145    ge
+00000146    logand
+00000147    lea var38
+0000014A    load dword
+0000014C    push 2
+0000014E    add
+0000014F    load byte
+00000151    push 39
+00000153    le
+00000154    logand
+00000155    jz 00000279
+
+0000015A    lea var38
+0000015D    load dword
+0000015F    lea var41E0
+00000162    getstring "Definition\%s\Animation*"      // BF7 - C0F
+00000165    sprintf
+00000166    push 0
+00000168    push 0
+0000016A    lea var41E0
+0000016D    push 0
+0000016F    push 0
+00000171    syscall 80:25
+00000173    lea var30
+00000176    storevp dword
+00000178    lea var30
+0000017B    load dword
+0000017D    push 1
+0000017F    ge
+00000180    jz 00000279
+
+00000185    lea var30
+00000188    load dword
+0000018A    syscall void* alloc(int size)
+0000018C    lea var34
+0000018F    storevp dword
+00000191    lea var34
+00000194    load dword
+00000196    lea var30
+00000199    load dword
+0000019B    lea var41E0
+0000019E    push 0
+000001A0    push 0
+000001A2    syscall 80:25
+000001A4    lea var2C
+000001A7    storevp dword
+000001A9    lea var28
+000001AC    push 0
+000001AE    storepv dword
+000001B0    lea var24
+000001B3    lea var34
+000001B6    load dword
+000001B8    storepv dword
+
+000001BA    lea var44FC
+000001BD    lea var44F0
+000001C0    lea var24
+000001C3    load dword
+000001C5    call sub_00000524
+000001C9    jz 00000237
+
+000001CE    lea var44F0
+000001D1    load dword
+000001D3    push 0
+000001D5    eq
+000001D6    lea var3ED4
+000001D9    lea var2F34
+000001DC    if
+000001DD    lea var54
+000001E0    storevp dword
+000001E2    lea var54
+000001E5    load dword
+000001E7    lea var44FC
+000001EA    load dword
+000001EC    push 4
+000001EE    mul
+000001EF    add
+000001F0    load dword
+000001F2    jnz 00000237
+
+000001F7    lea var41E0
+000001FA    push 0
+000001FC    lea var40
+000001FF    load dword
+00000201    call
+00000202    lea var24
+00000205    load dword
+00000207    lea var38
+0000020A    load dword
+0000020C    lea var41E0
+0000020F    lea var44EC
+00000212    getstring "%s\Definition\%s\%s"      // C10 - C23
+00000215    sprintf
+00000216    lea var44EC
+00000219    push 0
+0000021B    push 0
+0000021D    push 11
+0000021F    lea var40
+00000222    load dword
+00000224    call
+00000225    lea var54
+00000228    load dword
+0000022A    lea var44FC
+0000022D    load dword
+0000022F    push 4
+00000231    mul
+00000232    add
+00000233    push 1
+00000235    storepv dword
+
+00000237    lea var24
+0000023A    load dword
+0000023C    strlen
+0000023D    lea var44F4
+00000240    storevp dword
+00000242    lea var24
+00000245    lea var24
+00000248    load dword
+0000024A    lea var44F4
+0000024D    load dword
+0000024F    add
+00000250    push 1
+00000252    add
+00000253    storepv dword
+00000255    lea var28
+00000258    lea var28
+0000025B    load dword
+0000025D    push 1
+0000025F    add
+00000260    storepv dword
+00000262    lea var28
+00000265    load dword
+00000267    lea var2C
+0000026A    load dword
+0000026C    less
+0000026D    jnz 000001BA
+
+00000272    lea var34
+00000275    load dword
+00000277    syscall bool free(void* ptr)
+
+00000279    lea var38
+0000027C    load dword
+0000027E    strlen
+0000027F    lea var44F4
+00000282    storevp dword
+00000284    lea var38
+00000287    lea var38
+0000028A    load dword
+0000028C    lea var44F4
+0000028F    load dword
+00000291    add
+00000292    push 1
+00000294    add
+00000295    storepv dword
+00000297    lea var3C
+0000029A    lea var3C
+0000029D    load dword
+0000029F    push 1
+000002A1    add
+000002A2    storepv dword
+000002A4    lea var3C
+000002A7    load dword
+000002A9    lea var44
+000002AC    load dword
+000002AE    less
+000002AF    jnz 000000EA
+
+000002B4    syscall 80:41
+000002B6    lea var4C
+000002B9    load dword
+000002BB    syscall bool free(void* ptr)
+
+000002BD    push 0
+000002BF    push 0
+000002C1    getstring "Definition\CVTD\Animation*"      // C24 - C3E
+000002C4    push 0
+000002C6    push 0
+000002C8    syscall 80:25
+000002CA    lea var30
+000002CD    storevp dword
+000002CF    lea var30
+000002D2    load dword
+000002D4    push 1
+000002D6    ge
+000002D7    jz 0000039B
+
+000002DC    lea var30
+000002DF    load dword
+000002E1    syscall void* alloc(int size)
+000002E3    lea var34
+000002E6    storevp dword
+000002E8    lea var34
+000002EB    load dword
+000002ED    lea var30
+000002F0    load dword
+000002F2    getstring "Definition\CVTD\Animation*"      // C3F - C59
+000002F5    push 0
+000002F7    push 0
+000002F9    syscall 80:25
+000002FB    lea var2C
+000002FE    storevp dword
+00000300    lea var28
+00000303    push 0
+00000305    storepv dword
+00000307    lea var24
+0000030A    lea var34
+0000030D    load dword
+0000030F    storepv dword
+
+00000311    lea var44F4
+00000314    lea var44F0
+00000317    lea var24
+0000031A    load dword
+0000031C    call sub_00000524
+00000320    jz 00000359
+
+00000325    lea var24
+00000328    load dword
+0000032A    call sub_00000676
+0000032E    jz 00000359
+
+00000333    lea var44F0
+00000336    load dword
+00000338    push 0
+0000033A    eq
+0000033B    lea var1F94
+0000033E    lea varFF4
+00000341    if
+00000342    lea var50
+00000345    storevp dword
+00000347    lea var50
+0000034A    load dword
+0000034C    lea var44F4
+0000034F    load dword
+00000351    push 4
+00000353    mul
+00000354    add
+00000355    push 1
+00000357    storepv dword
+
+00000359    lea var24
+0000035C    load dword
+0000035E    strlen
+0000035F    lea var44F4
+00000362    storevp dword
+00000364    lea var24
+00000367    lea var24
+0000036A    load dword
+0000036C    lea var44F4
+0000036F    load dword
+00000371    add
+00000372    push 1
+00000374    add
+00000375    storepv dword
+00000377    lea var28
+0000037A    lea var28
+0000037D    load dword
+0000037F    push 1
+00000381    add
+00000382    storepv dword
+00000384    lea var28
+00000387    load dword
+00000389    lea var2C
+0000038C    load dword
+0000038E    less
+0000038F    jnz 00000311
+
+00000394    lea var34
+00000397    load dword
+00000399    syscall bool free(void* ptr)
+
+0000039B    push 0
+0000039D    push 0
+0000039F    getstring "Archive\data06???.arc"      // C5A - C6F
+000003A2    push 0
+000003A4    push 0
+000003A6    syscall 80:25
+000003A8    lea var1C
+000003AB    storevp dword
+000003AD    lea var1C
+000003B0    load dword
+000003B2    push 1
+000003B4    ge
+000003B5    jz 0000051D
+
+000003BA    lea var1C
+000003BD    load dword
+000003BF    syscall void* alloc(int size)
+000003C1    lea var20
+000003C4    storevp dword
+000003C6    lea var20
+000003C9    load dword
+000003CB    lea var1C
+000003CE    load dword
+000003D0    getstring "Archive\data06???.arc"      // C70 - C85
+000003D3    push 0
+000003D5    push 0
+000003D7    syscall 80:25
+000003D9    lea var18
+000003DC    storevp dword
+000003DE    lea var14
+000003E1    push 0
+000003E3    storepv dword
+000003E5    lea var10
+000003E8    lea var20
+000003EB    load dword
+000003ED    storepv dword
+
+000003EF    lea var10
+000003F2    load dword
+000003F4    lea var41E0
+000003F7    getstring "Archive\%s"      // C86 - C90
+000003FA    sprintf
+000003FB    push 0
+000003FD    lea var8
+00000400    lea var41E0
+00000403    syscall 81:39
+00000405    lea var8
+00000408    load dword
+0000040A    push 0
+0000040C    greater
+0000040D    jz 000004DB
+
+00000412    lea var8
+00000415    load dword
+00000417    syscall void* alloc(int size)
+00000419    lea varC
+0000041C    storevp dword
+0000041E    lea varC
+00000421    load dword
+00000423    lea var4
+00000426    lea var41E0
+00000429    syscall 81:39
+0000042B    lea var28
+0000042E    push 0
+00000430    storepv dword
+00000432    lea var24
+00000435    lea varC
+00000438    load dword
+0000043A    storepv dword
+
+0000043C    lea var44F4
+0000043F    lea var44F0
+00000442    lea var24
+00000445    load dword
+00000447    call sub_00000524
+0000044B    jz 00000499
+
+00000450    lea var44F0
+00000453    load dword
+00000455    push 0
+00000457    eq
+00000458    lea var1F94
+0000045B    lea varFF4
+0000045E    if
+0000045F    lea var50
+00000462    storevp dword
+00000464    lea var50
+00000467    load dword
+00000469    lea var44F4
+0000046C    load dword
+0000046E    push 4
+00000470    mul
+00000471    add
+00000472    load dword
+00000474    jnz 00000499
+
+00000479    lea var24
+0000047C    load dword
+0000047E    call sub_00000676
+00000482    jz 00000499
+
+00000487    lea var50
+0000048A    load dword
+0000048C    lea var44F4
+0000048F    load dword
+00000491    push 4
+00000493    mul
+00000494    add
+00000495    push 1
+00000497    storepv dword
+
+00000499    lea var24
+0000049C    load dword
+0000049E    strlen
+0000049F    lea var44F4
+000004A2    storevp dword
+000004A4    lea var24
+000004A7    lea var24
+000004AA    load dword
+000004AC    lea var44F4
+000004AF    load dword
+000004B1    add
+000004B2    push 1
+000004B4    add
+000004B5    storepv dword
+000004B7    lea var28
+000004BA    lea var28
+000004BD    load dword
+000004BF    push 1
+000004C1    add
+000004C2    storepv dword
+000004C4    lea var28
+000004C7    load dword
+000004C9    lea var4
+000004CC    load dword
+000004CE    less
+000004CF    jnz 0000043C
+
+000004D4    lea varC
+000004D7    load dword
+000004D9    syscall bool free(void* ptr)
+
+000004DB    lea var10
+000004DE    load dword
+000004E0    strlen
+000004E1    lea var44F4
+000004E4    storevp dword
+000004E6    lea var10
+000004E9    lea var10
+000004EC    load dword
+000004EE    lea var44F4
+000004F1    load dword
+000004F3    add
+000004F4    push 1
+000004F6    add
+000004F7    storepv dword
+000004F9    lea var14
+000004FC    lea var14
+000004FF    load dword
+00000501    push 1
+00000503    add
+00000504    storepv dword
+00000506    lea var14
+00000509    load dword
+0000050B    lea var18
+0000050E    load dword
+00000510    less
+00000511    jnz 000003EF
+
+00000516    lea var20
+00000519    load dword
+0000051B    syscall bool free(void* ptr)
+
+0000051D    getsp
+0000051E    push 44FC
+00000521    sub
+00000522    setsp
+00000523    ret
+
+sub_00000524:
+00000524    getsp
+00000525    push 328
+00000528    add
+00000529    setsp
+0000052A    lea var320
+0000052D    storevp dword
+0000052F    lea var324
+00000532    storevp dword
+00000534    lea var328
+00000537    storevp dword
+00000539    lea var31C
+0000053C    push 0
+0000053E    storepv dword
+00000540    lea var320
+00000543    load dword
+00000545    strlen
+00000546    lea var314
+00000549    storevp dword
+0000054B    lea var30C
+0000054E    lea var320
+00000551    load dword
+00000553    strcpy
+00000554    lea var30C
+00000557    tolower
+00000558    lea var314
+0000055B    load dword
+0000055D    push F
+0000055F    ge
+00000560    jz 00000585
+
+00000565    lea var30C
+00000568    getstring "animationset"      // C91 - C9D
+0000056B    push C
+0000056D    memeq
+0000056E    jz 00000585
+
+00000573    lea var310
+00000576    push C
+00000578    storepv dword
+0000057A    lea var318
+0000057D    push 1
+0000057F    storepv dword
+00000581    jmp 000005AE
+
+00000585    lea var314
+00000588    load dword
+0000058A    push C
+0000058C    ge
+0000058D    jz 0000066A
+
+00000592    lea var30C
+00000595    getstring "animation"      // C9E - CA7
+00000598    push 9
+0000059A    memeq
+0000059B    jz 0000066A
+
+000005A0    lea var310
+000005A3    push 9
+000005A5    storepv dword
+000005A7    lea var318
+000005AA    push 0
+000005AC    storepv dword
+
+000005AE    lea var30C
+000005B1    lea var310
+000005B4    load dword
+000005B6    add
+000005B7    load byte
+000005B9    push 30
+000005BB    ge
+000005BC    lea var30C
+000005BF    lea var310
+000005C2    load dword
+000005C4    add
+000005C5    load byte
+000005C7    push 39
+000005C9    le
+000005CA    logand
+000005CB    lea var30C
+000005CE    lea var310
+000005D1    load dword
+000005D3    add
+000005D4    push 1
+000005D6    add
+000005D7    load byte
+000005D9    push 30
+000005DB    ge
+000005DC    logand
+000005DD    lea var30C
+000005E0    lea var310
+000005E3    load dword
+000005E5    add
+000005E6    push 1
+000005E8    add
+000005E9    load byte
+000005EB    push 39
+000005ED    le
+000005EE    logand
+000005EF    lea var30C
+000005F2    lea var310
+000005F5    load dword
+000005F7    add
+000005F8    push 2
+000005FA    add
+000005FB    load byte
+000005FD    push 30
+000005FF    ge
+00000600    logand
+00000601    lea var30C
+00000604    lea var310
+00000607    load dword
+00000609    add
+0000060A    push 2
+0000060C    add
+0000060D    load byte
+0000060F    push 39
+00000611    le
+00000612    logand
+00000613    jz 0000066A
+
+00000618    lea var328
+0000061B    load dword
+0000061D    lea var30C
+00000620    lea var310
+00000623    load dword
+00000625    add
+00000626    push 2
+00000628    add
+00000629    load byte
+0000062B    push 30
+0000062D    sub
+0000062E    push 64
+00000630    mul
+00000631    lea var30C
+00000634    lea var310
+00000637    load dword
+00000639    add
+0000063A    push 1
+0000063C    add
+0000063D    load byte
+0000063F    push 30
+00000641    sub
+00000642    push A
+00000644    mul
+00000645    add
+00000646    lea var30C
+00000649    lea var310
+0000064C    load dword
+0000064E    add
+0000064F    load byte
+00000651    push 30
+00000653    sub
+00000654    add
+00000655    storepv dword
+00000657    lea var324
+0000065A    load dword
+0000065C    lea var318
+0000065F    load dword
+00000661    storepv dword
+00000663    lea var31C
+00000666    push 1
+00000668    storepv dword
+
+0000066A    lea var31C
+0000066D    load dword
+0000066F    getsp
+00000670    push 328
+00000673    sub
+00000674    setsp
+00000675    ret
+
+sub_00000676:
+00000676    getsp
+00000677    push 414
+0000067A    add
+0000067B    setsp
+0000067C    lea var414
+0000067F    storevp dword
+00000681    lea var410
+00000684    push 0
+00000686    storepv dword
+00000688    getstring "data06xxx.arc"      // CA8 - CB5
+0000068B    lea var414
+0000068E    load dword
+00000690    syscall int getFileSize(char* pszArchiveFileName, char* pszFileName)
+00000692    lea var40C
+00000695    storevp dword
+00000697    lea var40C
+0000069A    load dword
+0000069C    push 0
+0000069E    greater
+0000069F    jz 00000769
+
+000006A4    lea var40C
+000006A7    load dword
+000006A9    syscall void* alloc(int size)
+000006AB    lea var4
+000006AE    storevp dword
+000006B0    lea var4
+000006B3    load dword
+000006B5    getstring "data06xxx.arc"      // CB6 - CC3
+000006B8    lea var414
+000006BB    load dword
+000006BD    syscall int loadFile(void* pBuffer, char* pszArchiveFileName, char* pszFileName)
+000006BF    lea var408
+000006C2    storevp dword
+000006C4    lea var408
+000006C7    load dword
+000006C9    lea var40C
+000006CC    load dword
+000006CE    eq
+000006CF    jnz 000006E8
+
+000006D4    lea var414
+000006D7    load dword
+000006D9    lea var404
+000006DC    getstring "[ %s ] の読み込みに失敗しました"      // CC4 - CE3
+000006DF    sprintf
+000006E0    lea var404
+000006E3    message
+000006E4    jmp 00000762
+
+000006E8    lea var4
+000006EB    load dword
+000006ED    getstring "BurikoAnimationDefinition"      // CE4 - CFD
+000006F0    streq
+000006F1    jz 00000727
+
+000006F6    lea var4
+000006F9    load dword
+000006FB    lea var40C
+000006FE    load dword
+00000700    call sub_000007BE
+00000704    lea var410
+00000707    storevp dword
+00000709    lea var410
+0000070C    load dword
+0000070E    jnz 00000762
+
+00000713    lea var414
+00000716    load dword
+00000718    lea var404
+0000071B    getstring "[ %s ] は破損しています"      // CFE - D15
+0000071E    sprintf
+0000071F    lea var404
+00000722    message
+00000723    jmp 00000762
+
+00000727    lea var4
+0000072A    load dword
+0000072C    getstring "BurikoAnimationDefinitionSet"      // D16 - D32
+0000072F    streq
+00000730    jz 00000762
+
+00000735    lea var4
+00000738    load dword
+0000073A    lea var40C
+0000073D    load dword
+0000073F    call sub_00000951
+00000743    lea var410
+00000746    storevp dword
+00000748    lea var410
+0000074B    load dword
+0000074D    jnz 00000762
+
+00000752    lea var414
+00000755    load dword
+00000757    lea var404
+0000075A    getstring "[ %s ] は破損しています"      // D33 - D4A
+0000075D    sprintf
+0000075E    lea var404
+00000761    message
+
+00000762    lea var4
+00000765    load dword
+00000767    syscall bool free(void* ptr)
+
+00000769    lea var410
+0000076C    load dword
+0000076E    getsp
+0000076F    push 414
+00000772    sub
+00000773    setsp
+00000774    ret
+
+sub_00000775:
+00000775    getsp
+00000776    push 0
+00000778    add
+00000779    setsp
+0000077A    push AB0
+0000077D    load dword
+0000077F    push 0
+00000781    ne
+00000782    jz 00000795
+
+00000787    push AB0
+0000078A    load dword
+0000078C    syscall 80:D1
+0000078E    push AB0
+00000791    push 0
+00000793    storepv dword
+
+00000795    push AB4
+00000798    load dword
+0000079A    push 0
+0000079C    ne
+0000079D    jz 000007B0
+
+000007A2    push AB4
+000007A5    load dword
+000007A7    syscall 80:D1
+000007A9    push AB4
+000007AC    push 0
+000007AE    storepv dword
+
+000007B0    push 1
+000007B2    push 0
+000007B4    push 0
+000007B6    syscall 80:DA
+000007B8    getsp
+000007B9    push 0
+000007BB    sub
+000007BC    setsp
+000007BD    ret
+
+sub_000007BE:
+000007BE    getsp
+000007BF    push 2C8
+000007C2    add
+000007C3    setsp
+000007C4    lea var2C4
+000007C7    storevp dword
+000007C9    lea var2C8
+000007CC    storevp dword
+000007CE    lea var2C0
+000007D1    push 0
+000007D3    storepv dword
+000007D5    lea varB0
+000007D8    lea var2C8
+000007DB    load dword
+000007DD    storepv dword
+000007DF    lea var2BC
+000007E2    push 40
+000007E4    storepv dword
+000007E6    lea var2B8
+000007E9    push 0
+000007EB    storepv dword
+
+000007ED    lea var2B8
+000007F0    load dword
+000007F2    lea varB0
+000007F5    load dword
+000007F7    push 28
+000007F9    add
+000007FA    load dword
+000007FC    ge
+000007FD    jnz 0000093E
+
+00000802    lea var2B0
+00000805    lea varAC
+00000808    push 0
+0000080A    add
+0000080B    lea var2C8
+0000080E    load dword
+00000810    lea var2BC
+00000813    lea var2C4
+00000816    load dword
+00000818    call sub_00000A32
+0000081C    jz 00000945
+
+00000821    lea var1B0
+00000824    lea varAC
+00000827    push 4
+00000829    add
+0000082A    lea var2C8
+0000082D    load dword
+0000082F    lea var2BC
+00000832    lea var2C4
+00000835    load dword
+00000837    call sub_00000A32
+0000083B    jz 00000945
+
+00000840    lea var2B4
+00000843    push 0
+00000845    storepv dword
+
+00000847    lea var2B4
+0000084A    load dword
+0000084C    push 1
+0000084E    ge
+0000084F    jnz 0000088D
+
+00000854    lea var1B0
+00000857    lea varAC
+0000085A    push 8
+0000085C    add
+0000085D    lea var2B4
+00000860    load dword
+00000862    push 4
+00000864    mul
+00000865    add
+00000866    lea var2C8
+00000869    load dword
+0000086B    lea var2BC
+0000086E    lea var2C4
+00000871    load dword
+00000873    call sub_00000A32
+00000877    jz 00000945
+
+0000087C    lea var2B4
+0000087F    lea var2B4
+00000882    load dword
+00000884    push 1
+00000886    add
+00000887    storepv dword
+00000889    jmp 00000847
+
+0000088D    lea var2BC
+00000890    load dword
+00000892    push 8
+00000894    push 20
+00000896    add
+00000897    push 4
+00000899    mul
+0000089A    add
+0000089B    lea var2C4
+0000089E    load dword
+000008A0    greater
+000008A1    jnz 00000945
+
+000008A6    lea varAC
+000008A9    push C
+000008AB    add
+000008AC    lea var2C8
+000008AF    load dword
+000008B1    lea var2BC
+000008B4    load dword
+000008B6    add
+000008B7    push 8
+000008B9    push 20
+000008BB    add
+000008BC    push 4
+000008BE    mul
+000008BF    memcpy
+000008C0    lea var2BC
+000008C3    lea var2BC
+000008C6    load dword
+000008C8    push 8
+000008CA    push 20
+000008CC    add
+000008CD    push 4
+000008CF    mul
+000008D0    add
+000008D1    storepv dword
+000008D3    lea varAC
+000008D6    push 20
+000008D8    add
+000008D9    load dword
+000008DB    push 0
+000008DD    eq
+000008DE    lea varAC
+000008E1    push 28
+000008E3    add
+000008E4    load dword
+000008E6    push 4
+000008E8    eq
+000008E9    lea varAC
+000008EC    push 28
+000008EE    add
+000008EF    load dword
+000008F1    push 7
+000008F3    eq
+000008F4    logor
+000008F5    logand
+000008F6    push 3
+000008F8    lea varAC
+000008FB    push 20
+000008FD    add
+000008FE    load dword
+00000900    if
+00000901    lea varAC
+00000904    push 20
+00000906    add
+00000907    storevp dword
+00000909    lea varAC
+0000090C    push 18
+0000090E    add
+0000090F    lea varAC
+00000912    push 18
+00000914    add
+00000915    load dword
+00000917    push 100
+0000091A    mul
+0000091B    push 64
+0000091D    div
+0000091E    storepv dword
+00000920    push AB0
+00000923    load dword
+00000925    lea var2B0
+00000928    lea varAC
+0000092B    syscall 80:D2
+0000092D    lea var2B8
+00000930    lea var2B8
+00000933    load dword
+00000935    push 1
+00000937    add
+00000938    storepv dword
+0000093A    jmp 000007ED
+
+0000093E    lea var2C0
+00000941    push 1
+00000943    storepv dword
+
+00000945    lea var2C0
+00000948    load dword
+0000094A    getsp
+0000094B    push 2C8
+0000094E    sub
+0000094F    setsp
+00000950    ret
+
+sub_00000951:
+00000951    getsp
+00000952    push 260
+00000955    add
+00000956    setsp
+00000957    lea var25C
+0000095A    storevp dword
+0000095C    lea var260
+0000095F    storevp dword
+00000961    lea var258
+00000964    push 0
+00000966    storepv dword
+00000968    lea var48
+0000096B    lea var260
+0000096E    load dword
+00000970    storepv dword
+00000972    lea var254
+00000975    push 40
+00000977    storepv dword
+00000979    lea var250
+0000097C    push 0
+0000097E    storepv dword
+
+00000980    lea var250
+00000983    load dword
+00000985    lea var48
+00000988    load dword
+0000098A    push 28
+0000098C    add
+0000098D    load dword
+0000098F    ge
+00000990    jnz 00000A1F
+
+00000995    lea var248
+00000998    lea var44
+0000099B    push 0
+0000099D    add
+0000099E    lea var260
+000009A1    load dword
+000009A3    lea var254
+000009A6    lea var25C
+000009A9    load dword
+000009AB    call sub_00000A32
+000009AF    jz 00000A26
+
+000009B4    lea var24C
+000009B7    push 0
+000009B9    storepv dword
+
+000009BB    lea var24C
+000009BE    load dword
+000009C0    push 10
+000009C2    ge
+000009C3    jnz 00000A01
+
+000009C8    lea var148
+000009CB    lea var44
+000009CE    push 4
+000009D0    add
+000009D1    lea var24C
+000009D4    load dword
+000009D6    push 4
+000009D8    mul
+000009D9    add
+000009DA    lea var260
+000009DD    load dword
+000009DF    lea var254
+000009E2    lea var25C
+000009E5    load dword
+000009E7    call sub_00000A32
+000009EB    jz 00000A26
+
+000009F0    lea var24C
+000009F3    lea var24C
+000009F6    load dword
+000009F8    push 1
+000009FA    add
+000009FB    storepv dword
+000009FD    jmp 000009BB
+
+00000A01    push AB4
+00000A04    load dword
+00000A06    lea var248
+00000A09    lea var44
+00000A0C    syscall 80:D2
+00000A0E    lea var250
+00000A11    lea var250
+00000A14    load dword
+00000A16    push 1
+00000A18    add
+00000A19    storepv dword
+00000A1B    jmp 00000980
+
+00000A1F    lea var258
+00000A22    push 1
+00000A24    storepv dword
+
+00000A26    lea var258
+00000A29    load dword
+00000A2B    getsp
+00000A2C    push 260
+00000A2F    sub
+00000A30    setsp
+00000A31    ret
+
+sub_00000A32:
+00000A32    getsp
+00000A33    push 20
+00000A35    add
+00000A36    setsp
+00000A37    lea var10
+00000A3A    storevp dword
+00000A3C    lea var14
+00000A3F    storevp dword
+00000A41    lea var18
+00000A44    storevp dword
+00000A46    lea var1C
+00000A49    storevp dword
+00000A4B    lea var20
+00000A4E    storevp dword
+00000A50    lea varC
+00000A53    push 0
+00000A55    storepv dword
+00000A57    lea var14
+00000A5A    load dword
+00000A5C    load dword
+00000A5E    push 2
+00000A60    add
+00000A61    lea var10
+00000A64    load dword
+00000A66    greater
+00000A67    jnz 00000B32
+
+00000A6C    lea var4
+00000A6F    lea var18
+00000A72    load dword
+00000A74    lea var14
+00000A77    load dword
+00000A79    load dword
+00000A7B    add
+00000A7C    storepv dword
+00000A7E    lea var8
+00000A81    lea var4
+00000A84    load dword
+00000A86    load word
+00000A88    storepv dword
+00000A8A    lea var14
+00000A8D    load dword
+00000A8F    lea var14
+00000A92    load dword
+00000A94    load dword
+00000A96    push 2
+00000A98    add
+00000A99    storepv dword
+00000A9B    lea var8
+00000A9E    load dword
+00000AA0    push 0
+00000AA2    eq
+00000AA3    jnz 00000B15
+
+00000AA8    lea var14
+00000AAB    load dword
+00000AAD    load dword
+00000AAF    lea var8
+00000AB2    load dword
+00000AB4    add
+00000AB5    lea var10
+00000AB8    load dword
+00000ABA    greater
+00000ABB    jnz 00000B32
+
+00000AC0    lea var20
+00000AC3    load dword
+00000AC5    lea var18
+00000AC8    load dword
+00000ACA    lea var14
+00000ACD    load dword
+00000ACF    load dword
+00000AD1    add
+00000AD2    lea var8
+00000AD5    load dword
+00000AD7    memcpy
+00000AD8    lea var20
+00000ADB    load dword
+00000ADD    lea var8
+00000AE0    load dword
+00000AE2    add
+00000AE3    push 0
+00000AE5    storepv byte
+00000AE7    lea var14
+00000AEA    load dword
+00000AEC    lea var14
+00000AEF    load dword
+00000AF1    load dword
+00000AF3    lea var8
+00000AF6    load dword
+00000AF8    add
+00000AF9    storepv dword
+00000AFB    lea var20
+00000AFE    load dword
+00000B00    tolower
+00000B01    push 1
+00000B03    lea var20
+00000B06    load dword
+00000B08    syscall 80:DC
+00000B0A    lea var1C
+00000B0D    load dword
+00000B0F    storevp dword
+00000B11    jmp 00000B2B
+
+00000B15    lea var20
+00000B18    load dword
+00000B1A    push 0
+00000B1C    storepv byte
+00000B1E    lea var1C
+00000B21    load dword
+00000B23    push 1
+00000B25    binnot
+00000B26    push 1
+00000B28    add
+00000B29    storepv dword
+
+00000B2B    lea varC
+00000B2E    push 1
+00000B30    storepv dword
+
+00000B32    lea varC
+00000B35    load dword
+00000B37    getsp
+00000B38    push 20
+00000B3A    sub
+00000B3B    setsp
+00000B3C    ret
+

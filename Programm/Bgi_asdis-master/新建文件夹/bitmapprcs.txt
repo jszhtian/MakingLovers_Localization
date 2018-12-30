@@ -1,0 +1,27 @@
+<ja0001>sysprg.arc
+<cn0001>sysprg.arc
+
+<ja0002>bitmap._bp
+<cn0002>bitmap._bp
+
+<ja0003>data02xxx.arc
+<cn0003>data02xxx.arc
+
+<ja0004>指定されたビットマップ [ %s ] とアニメーションパターン数の整合性が取れていません
+<cn0004>指定されたビットマップ [ %s ] とアニメーションパターン数の整合性が取れていません
+
+<ja0005>builddata._bp
+<cn0005>builddata._bp
+
+<ja0006>IHDR
+<cn0006>IHDR
+
+<ja0007>CompressedBG___
+<cn0007>CompressedBG___
+
+<ja0008>.png
+<cn0008>.png
+
+<ja0009>%sImage\%s
+<cn0009>%sImage\%s
+

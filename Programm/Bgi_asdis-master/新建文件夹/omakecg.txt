@@ -1,0 +1,51 @@
+<ja0001>SetupForGallery
+<cn0001>SetupForGallery
+
+<ja0002>data01xxx.arc
+<cn0002>data01xxx.arc
+
+<ja0003>sysprg.arc
+<cn0003>sysprg.arc
+
+<ja0004>builddata._bp
+<cn0004>builddata._bp
+
+<ja0005>指定されたスクリプト [ %s ] は存在しません
+<cn0005>指定されたスクリプト [ %s ] は存在しません
+
+<ja0006>userdata._bp
+<cn0006>userdata._bp
+
+<ja0007>scrdrv._bp
+<cn0007>scrdrv._bp
+
+<ja0008>指定されたユーザーデータから異常が検出されたので読み込みを中止します
+<cn0008>指定されたユーザーデータから異常が検出されたので読み込みを中止します
+
+<ja0009>data02xxx.arc
+<cn0009>data02xxx.arc
+
+<ja0010>指定されたビットマップ [ %s ] は存在しません
+<cn0010>指定されたビットマップ [ %s ] は存在しません
+
+<ja0011>bitmap._bp
+<cn0011>bitmap._bp
+
+<ja0012>data05xxx.arc
+<cn0012>data05xxx.arc
+
+<ja0013>サムネイル[ %s ]の横幅が分割数[ %d ]で割り切れません。
+<cn0013>サムネイル[ %s ]の横幅が分割数[ %d ]で割り切れません。
+
+<ja0014>＋α
+<cn0014>＋α
+
+<ja0015>
+<cn0015>
+
+<ja0016> 2017/10/28
+<cn0016> 2017/10/28
+
+<ja0017>%s%s%s%s
+<cn0017>%s%s%s%s
+

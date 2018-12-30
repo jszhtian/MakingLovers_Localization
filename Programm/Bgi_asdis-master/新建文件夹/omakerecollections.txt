@@ -1,0 +1,63 @@
+<ja0001>SetupForRecollections
+<cn0001>SetupForRecollections
+
+<ja0002>sysgrp.arc
+<cn0002>sysgrp.arc
+
+<ja0003>SGTitle99%02d00
+<cn0003>SGTitle99%02d00
+
+<ja0004>SGRcllct990100
+<cn0004>SGRcllct990100
+
+<ja0005>data01xxx.arc
+<cn0005>data01xxx.arc
+
+<ja0006>sysprg.arc
+<cn0006>sysprg.arc
+
+<ja0007>builddata._bp
+<cn0007>builddata._bp
+
+<ja0008>指定されたスクリプト [ %s ] は存在しません
+<cn0008>指定されたスクリプト [ %s ] は存在しません
+
+<ja0009>userdata._bp
+<cn0009>userdata._bp
+
+<ja0010>scrdrv._bp
+<cn0010>scrdrv._bp
+
+<ja0011>指定されたユーザーデータから異常が検出されたので読み込みを中止します
+<cn0011>指定されたユーザーデータから異常が検出されたので読み込みを中止します
+
+<ja0012>syswnd._bp
+<cn0012>syswnd._bp
+
+<ja0013>bitmap._bp
+<cn0013>bitmap._bp
+
+<ja0014>%s_off
+<cn0014>%s_off
+
+<ja0015>%s_on
+<cn0015>%s_on
+
+<ja0016>data02xxx.arc
+<cn0016>data02xxx.arc
+
+<ja0017>サムネイル[ %s ]の横幅が分割数[ %d ]で割り切れません。
+<cn0017>サムネイル[ %s ]の横幅が分割数[ %d ]で割り切れません。
+
+<ja0018>＋α
+<cn0018>＋α
+
+<ja0019>
+<cn0019>
+
+<ja0020> 2017/10/28
+<cn0020> 2017/10/28
+
+<ja0021>%s%s%s%s
+<cn0021>%s%s%s%s
+

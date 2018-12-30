@@ -1,0 +1,7 @@
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\bin\Release\BgiImageEncoder.exe.config
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\bin\Release\BgiImageEncoder.exe
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\bin\Release\BgiImageEncoder.pdb
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\obj\Release\BgiImageEncoder.csprojAssemblyReference.cache
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\obj\Release\BgiImageEncoder.csproj.CoreCompileInputs.cache
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\obj\Release\BgiImageEncoder.exe
+F:\TRP\ML\EthornellTools-master\BgiImageEncoder\obj\Release\BgiImageEncoder.pdb
